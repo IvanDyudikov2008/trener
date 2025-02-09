@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Математика_Результат</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+    <div id="result">
+        Результаты
+        <div id="result-table">
+        </div>
+    </div>
+    <ul>
+        <li><a href="math.html">Меню Математика</a></li>
+        <li><a href="index.html">Домой</a></li>
+    </ul>
+</div>
+</main>
+    <script src="main_math.js"></script>
+    <script type="text/javascript">
+        let resultTable = document.getElementById("result-table");
+        resultTable.innerHTML ='';
+        resultTable.append(show_result());
+    </script>
+</body>
+</html>
