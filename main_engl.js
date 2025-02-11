@@ -1,7 +1,7 @@
-localStorage.setItem("engl_opt_class", JSON.stringify(""));
-localStorage.setItem("engl_opt_letter",JSON.stringify(["all"]));
-localStorage.setItem("engl_opt_timer", JSON.stringify("N"));
-localStorage.setItem("engl_result", JSON.stringify([]));
+// localStorage.setItem("engl_opt_class", JSON.stringify(""));
+// localStorage.setItem("engl_opt_letter",JSON.stringify(["all"]));
+// localStorage.setItem("engl_opt_timer", JSON.stringify("N"));
+// localStorage.setItem("engl_result", JSON.stringify([]));
 
 let words = [
     ["быть", "be was were been","1class","letters1","be, was/were, been — быть"],

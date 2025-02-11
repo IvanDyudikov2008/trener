@@ -1,7 +1,7 @@
-localStorage.setItem("math_opt_class", JSON.stringify(""));
-localStorage.setItem("math_opt_letter",JSON.stringify(["all"]));
-localStorage.setItem("math_opt_timer", JSON.stringify("N"));
-localStorage.setItem("math_result", JSON.stringify([]));
+// localStorage.setItem("math_opt_class", JSON.stringify(""));
+// localStorage.setItem("math_opt_letter",JSON.stringify(["all"]));
+// localStorage.setItem("math_opt_timer", JSON.stringify("N"));
+// localStorage.setItem("math_result", JSON.stringify([]));
 
 let words = [
     ["1*1", "1","1class","letters1","1*1=1"],
