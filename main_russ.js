@@ -1,3 +1,8 @@
+localStorage.setItem("russ_opt_class", JSON.stringify(""));
+localStorage.setItem("russ_opt_letter",JSON.stringify(["all"]));
+localStorage.setItem("russ_opt_timer", JSON.stringify("N"));
+localStorage.setItem("russ_result", JSON.stringify([]));
+
 let words = [
     ["вес…л…", "ео","1class","letters3","весело"],
     ["в…р…бей", "оо","1class","letters3","воробей"],
