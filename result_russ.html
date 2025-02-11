@@ -10,18 +10,20 @@
     <main>
         <div class="container">
     <div id="result">
-        Результаты
+        <div class="title">Результаты</div>
         <div id="result-table">
         </div>
     </div>
-    <ul>
-        <li><a href="russ.html">Меню Русский язык</a></li>
-        <li><a href="index.html">Домой</a></li>
-    </ul>
+        <a class="menu" href="russ.html">Меню Русский язык</a>
+        <a class="tohome" href="index.html">Домой</a>
 </div>
 </main>
     <script src="main_russ.js"></script>
     <script type="text/javascript">
+// localStorage.setItem("engl_opt_class", JSON.stringify(""));
+// localStorage.setItem("engl_opt_letter",JSON.stringify(["all"]));
+// localStorage.setItem("engl_opt_timer", JSON.stringify("N"));
+// localStorage.setItem("engl_result", JSON.stringify([]));
         let resultTable = document.getElementById("result-table");
         resultTable.innerHTML ='';
         resultTable.append(show_result());

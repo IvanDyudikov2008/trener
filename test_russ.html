@@ -6,22 +6,22 @@
 <body>
     <main>
         <div class="container">
-    <form id="options">
-        Настройка:
+    <form id="options" class="form">
+        <div class="title">Настройка</div>
         <!-- заполнится автоматически -->
         <label class="label">
-            Класс:
+            <div>Класс:</div>
             <select name="classes" id="classes">
             </select>
         </label>
         <!-- заполнится автоматически -->
         <label class="label">
-            Буква:
+            <div>Буква:</div>
             <select name="letters" id="letters" multiple>
             </select>
         </label>
         <label class="label">
-            Включить отсчет времени:
+            <div>Включить отсчет времени:</div>
             <input id="starttimer" type="checkbox">
         </label>        
         <div>
@@ -37,24 +37,22 @@
         </label>
         <br>
         <label>
-            Ответ:
+            <div>Ответ:</div>
             <textarea name="answer"></textarea>
         </label>
         <br>
-        <button name="btn">Дальше</button>
+        <button id="btn_test1opt_dal" name="btn">Дальше</button>
         <button id="btn_test1opt">Назад</button>
         <button id="btn_result">Результаты</button>
     </form>
     <div id="result">
-        Результаты
+        <div class="title">Результаты</div>
         <button id="btn_res1test">Перейти к тесту</button>
         <div id="result-table">
         </div>
     </div>
-    <ul>
-        <li><a href="russ.html">Меню Русский язык</a></li>
-        <li><a href="index.html">Домой</a></li>
-    </ul>
+        <a class="menu" href="russ.html">Меню Русский язык</a>
+        <a class="tohome" href="index.html">Домой</a>
 </div>
 </main>
 <script src="main_russ.js"></script>
